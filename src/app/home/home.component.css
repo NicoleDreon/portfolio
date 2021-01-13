@@ -1,0 +1,14 @@
+.main-content {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.main-words {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.background-img {
+  height: 100vh;
+}

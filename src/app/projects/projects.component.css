@@ -1,10 +1,15 @@
+.img {
+  /* display: flex; */
+  /* align-items: center; */
+}
 .young-chef-link {
   text-decoration: none;
 }
 
-.brown-fox-container {
+/* .brown-fox-container {
   display: flex;
-}
+  flex-direction: column;
+} */
 .brown-fox-img {
   width: 50%;
 }

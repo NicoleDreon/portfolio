@@ -1,25 +1,24 @@
 .projects-continer {
-  /* margin: 10px; */
+  margin: 10px;
 }
 .project-card {
   /* border: black solid 2px; */
   margin: 20px 0;
-  background-color: tan;
-  /* border-radius: 10px; */
+  /* background-color: tan; */
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
+}
+.project-title {
+  margin-top: 15px;
 }
 .img {
   width: 80vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-.test {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 .young-chef-link {
   text-decoration: none;
@@ -28,6 +27,6 @@
   padding: 5px;
   margin-bottom: 10px;
   display: flex;
-  width: 50%;
+  width: 100%;
   justify-content: center;
 }

@@ -20,6 +20,9 @@
   margin-left: auto;
   margin-right: auto;
 }
+.desktop-img {
+  display: none;
+}
 .young-chef-link {
   text-decoration: none;
   border: black 1px solid;
@@ -37,5 +40,11 @@
   }
   .img {
     width: 40vw;
+  }
+  .mobile-img {
+    display: none;
+  }
+  .desktop-img {
+    display: inline;
   }
 }

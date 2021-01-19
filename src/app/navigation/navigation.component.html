@@ -1,4 +1,39 @@
-<div class="nav-container">
+<nav role="navigation" class="navigation">
+  <div class="navigation-container">
+    <!-- A fake / hidden checkbox is used as click receiver, so you can use the :checked selector on it -->
+    <input type="checkbox" class="checkbox" />
+
+    <!-- Some spans to act as a hamburger. They are acting like a real hamburger, not that McDonalds stuff. -->
+    <span class="hamburger"></span>
+    <span class="hamburger"></span>
+    <span class="hamburger"></span>
+
+    <!-- Main menu links/routing -->
+    <ul class="nav-bar">
+      <li><a routerLink="">Nicole Dreon</a></li>
+      <div class="right-side-nav">
+        <li>
+          <a routerLink="/about" routerLinkActive="about-link">About</a>
+        </li>
+
+        <li>
+          <a routerLink="/projects" routerLinkActive="projects-link"
+            >Projects</a
+          >
+        </li>
+
+        <li>
+          <a routerLink="/contact" routerLinkActive="contact-link">Contact</a>
+        </li>
+      </div>
+    </ul>
+  </div>
+
+  <!-- End of .navigation-container -->
+</nav>
+
+<!--  -->
+<!-- <div class="nav-container">
   <ul class="nav-bar">
     <li class="nav-item"><a routerLink="">Nicole Dreon</a></li>
     <div class="nav-options">
@@ -7,4 +42,4 @@
       <li class="nav-item"><a routerLink="/contact">Contact</a></li>
     </div>
   </ul>
-</div>
+</div> -->
